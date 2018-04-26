@@ -1,0 +1,290 @@
+/*CSS Styles For WPExplorer Theme Documentation*/
+ 
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+a img,
+a {
+    outline: 0;
+    border: 0;
+}
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after { content: "" }
+blockquote,
+q { quotes: """" }
+
+
+/*clearfix*/
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+img{ max-width: 100%; }
+
+input{
+	display: block;
+	margin: 20px 0;
+	padding: 10px;
+	width: 580px;
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/*main*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 30px 0;
+	color: #555;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+#wrap{
+	position: relative;
+	margin: 40px auto;
+	width: 960px;
+}
+#sidebar{
+	width: 280px;
+	position: fixed;
+	top: 40px;
+	left: auto;
+
+}
+#sidebar ol{
+	list-style-position: inside;
+	margin: 0;
+}
+#main{
+	width: 640px;
+	float: right;
+	overflow: hidden;
+}
+
+ul, ol{
+	margin: 30px 40px;
+	list-style-type:
+}
+li{
+	margin-bottom: 5px;
+}
+
+a {
+      color: #43908F;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #14B694;
+}
+p{
+	margin-bottom: 1em;
+}
+strong{
+	font-weight: bold !important;
+}
+blockquote{
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+pre {
+	background: #fff url("images/pre-bg.png") repeat;
+	margin: 30px 0px;
+	padding: 25px 20px;
+	line-height: 25px;
+	border: 1px solid #ddd;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+hr{
+	outline: 0;
+	border: 0;
+	height: 1px;
+	background: #eee;
+	margin: 40px 0;
+}
+
+.highlight{
+	background-color: #fff7a8;
+	color: #695d43;
+}
+.highlight-green{
+	background-color: #e7ffce;
+	color: #47630a;
+}
+
+
+/*main classes*/
+
+.theme-version{
+	display: block;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.aligncenter{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.alignleft{
+	display: block;
+	margin: 20px 0;
+	text-align: left;
+}
+
+.imgwrap{
+	margin: 40px auto;
+}
+
+.warning,
+.notice,
+.info{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	padding: 0.8em;
+	margin-bottom: 1em;
+	border: 1px solid #ddd;
+}
+.warning{
+	background: #fbe3e4;
+	color: #8a1f11;
+	border-color: #fbc2c4;
+}
+.warning strong{
+	color: #8a1f11;
+}
+.notice {
+    background: none repeat scroll 0 0 #5CA2DF;
+    border: 1px solid #4493D8;
+    color: white;
+    font-weight: bold;
+}
+.info {
+	background: #B4DAFA;
+	color: #333;
+	border-color: #7CCAF3;
+}
+.notice strong{
+	color: #514721;
+}
+
+/*columns*/
+
+.onehalf{
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+/*headings*/
+
+h1, h2, h3, h4,h5{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 16px;
+	margin: 20px 0px;
+}
+
+h3{
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+h5{
+	margin-top: 20px;
+	margin-bottom: -10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+/*sections*/
+
+.themeinfo{
+	font-size: 12px;
+	text-align: left;
+	padding: 10px;
+	background: #F3F3F3;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	text-shadow: 1px 1px 1px #FFF;
+	margin-bottom: 20px;
+}
+
+.section{
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 20px;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.10);
+	margin-bottom: 40px;
+}
+
+
+/*styles*/
+.color-red{ color: #F00; }
+ul li span {
+    color: #888888;
+    display: inline-block;
+    float: right;
+    font: 14px "Courier New",Courier,monospace;
+    text-align: right;
+}
