@@ -1,7 +1,7 @@
 <!-- # maruti-admin -->
 <!-- Heading of Template -->
 <h1>
-  <a href="https://www.wrappixel.com/templates/maruti-admin/">Maruti Bootstrap Admin Lite</a>
+  <a href="https://www.wrappixel.com/templates/maruti-admin/">Maruti Bootstrap Admin</a>
 </h1>
 
 <!-- Main image of Template -->
